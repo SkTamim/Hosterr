@@ -1,8 +1,23 @@
+/*   Main CSS file for Hosterr   */
+
+/* Reset CSS */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Specifying Colors */
+:root {
+	--primary-color: #f9f4e8;
+	--grey: #706f6d;
+	--grey-hover: #3b3b3b;
+	--blue: #4977ea;
+	--blue-hover: #3668e7;
+	--white: #fff;
+	--black: #000;
+}
+
 body {
 	background-color: #f9f4e8;
 	font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +103,7 @@ li {
 	}
 	.logo {
 		height: 20px;
-		padding: 10px;
+		/* padding: 10px; */
 	}
 	.mobile_logo li {
 		padding: 0px 2rem !important;
@@ -203,3 +218,77 @@ li {
 		position: absolute;
 	}
 }
+
+/* Main Body Start */
+#main_body {
+	margin: calc(3rem + 10vh) auto;
+}
+.heading_area {
+	width: 30rem;
+}
+.heading_area h1 {
+	font-family: "Martel", serif;
+	font-size: 2.5rem;
+	font-weight: 800;
+	line-height: 3rem;
+	letter-spacing: -1px;
+	padding: 5px 0;
+}
+.heading_area p {
+	padding-right: 4rem;
+}
+.heading_area form input {
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	margin: 10px 0;
+}
+.noSpam {
+	align-items: center;
+}
+.noSpam img {
+	height: 20px;
+	padding-right: 10px;
+}
+.image_area {
+	margin-left: 50%;
+	position: relative;
+}
+.image_area img {
+	height: 350px;
+	position: absolute;
+	top: -40px;
+	right: 0;
+}
+.image_area img:nth-child(1) {
+	z-index: 10;
+}
+.image_area img:nth-child(2) {
+	z-index: 5;
+	transform: rotate(320deg);
+}
+.image_area img:nth-child(3) {
+	z-index: 6;
+	transform: rotate(332deg);
+}
+.image_area img:nth-child(4) {
+	z-index: 7;
+	transform: rotate(344deg);
+}
+/* Main Body End */
+
+/* Footer Start */
+#footer {
+	align-items: center;
+	margin: 1rem auto;
+}
+.chat {
+	margin-left: auto;
+	color: var(--black);
+}
+.chat img {
+	padding: 0 10px;
+}
+/* Footer End */

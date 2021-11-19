@@ -1,0 +1,163 @@
+/*   Main CSS file for Hosterr   */
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Specifying Colors */
+:root {
+	--primary-color: #f9f4e8;
+	--grey: #706f6d;
+	--grey-hover: #3b3b3b;
+	--blue: #4977ea;
+	--blue-hover: #3668e7;
+	--white: #fff;
+	--black: #000;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: var(--primary-color);
+}
+
+/* Menu Area Start */
+#menu_area {
+	margin: 3rem auto;
+}
+.logo img {
+	height: 20px;
+}
+.hitirng_button {
+	background: linear-gradient(to right, rgb(219, 219, 13), rgb(221, 0, 0));
+	color: var(--white);
+	padding: 5px 10px;
+	border-radius: 15px;
+	margin-left: 15px;
+	font-size: 12px;
+	transition: 0.2s;
+}
+.menu {
+	margin: 0 auto;
+}
+/* Menu Area End */
+
+/* Main Body Start */
+#main_body {
+	margin: calc(3rem + 10vh) auto;
+}
+.heading_area {
+	width: 30rem;
+}
+.heading_area h1 {
+	font-family: "Martel", serif;
+	font-size: 2.5rem;
+	font-weight: 800;
+	line-height: 3rem;
+	letter-spacing: -1px;
+	padding: 5px 0;
+}
+.heading_area p {
+	padding-right: 4rem;
+}
+.heading_area form input {
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	margin: 10px 0;
+}
+.noSpam {
+	align-items: center;
+}
+.noSpam img {
+	height: 20px;
+	padding-right: 10px;
+}
+.image_area {
+	margin-left: 50%;
+	position: relative;
+}
+.image_area img {
+	height: 350px;
+	position: absolute;
+	top: -40px;
+	right: 0;
+}
+.image_area img:nth-child(1) {
+	z-index: 10;
+}
+.image_area img:nth-child(2) {
+	z-index: 5;
+	transform: rotate(320deg);
+}
+.image_area img:nth-child(3) {
+	z-index: 6;
+	transform: rotate(332deg);
+}
+.image_area img:nth-child(4) {
+	z-index: 7;
+	transform: rotate(344deg);
+}
+/* Main Body End */
+
+/* Footer Start */
+#footer {
+	align-items: center;
+	margin: 2rem auto;
+}
+.chat {
+	margin-left: auto;
+	color: var(--black);
+}
+.chat img {
+	padding: 0 10px;
+}
+/* Footer End */
+
+/* Utilities */
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.container {
+	max-width: calc(900px + 20vw);
+	margin: 0 auto;
+}
+
+.d_flex {
+	display: flex;
+}
+.center {
+	align-items: center;
+	justify-content: center;
+}
+.button {
+	background: var(--blue);
+	color: var(--white);
+	padding: 15px;
+	border-radius: 5px;
+	margin: 0 5px;
+	transition: 0.2s;
+}
+.button:hover {
+	background: var(--blue-hover);
+}
+.link {
+	color: var(--grey);
+	font-size: 15px;
+	padding: 5px 10px;
+	margin: 0 5px;
+	transition: 0.2s;
+}
+.link:hover {
+	color: var(--grey-hover);
+}
+.para {
+	color: var(--grey);
+	font-size: 15px;
+}
