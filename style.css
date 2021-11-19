@@ -86,10 +86,6 @@ li {
 		padding: 10px 1rem;
 		overflow-x: hidden;
 	}
-	.logo {
-		height: 20px;
-		padding: 10px;
-	}
 	.mobile_logo li {
 		padding: 0px 2rem !important;
 	}
@@ -114,8 +110,8 @@ li {
 		flex-direction: column;
 		margin: auto 0;
 		background: rgb(141, 141, 255);
-		clip-path: circle(100px at 100% -8%);
-		-webkit-clip-path: circle(100px at 100% -8%);
+		clip-path: circle(100px at 116% -25%);
+		-webkit-clip-path: circle(100px at 116% -25%);
 		transition: all 1s ease-out !important;
 		pointer-events: none;
 	}
@@ -134,8 +130,8 @@ li {
 
 	/* for Animations in menu bar */
 	.mobile_menu_links.open {
-		clip-path: circle(1500px at 100% -8%);
-		-webkit-clip-path: circle(1500px at 100% -8%);
+		clip-path: circle(1500px at 116% -25%);
+		-webkit-clip-path: circle(1500px at 116% -25%);
 		pointer-events: all;
 	}
 
