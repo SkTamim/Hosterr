@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavBar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- Main Nav Bar Start -->
+    <nav id="main_nav_bar" class="container d_flex">
+        <!-- Logo and Hiring button -->
+        <div class="d_flex center_y">
+            <a href="#"><img src="Logo.svg" alt="Logo"></a>
+            <a class="hiring_button" href="#">
+                Hosterr is hiritg!
+            </a>
+        </div>
+
+        <div class="d_flex center center_nav">
+            <ul class="d_flex">
+                <li><a class="link" href="#">Plans</a></li>
+                <li><a class="link" href="#">Find Domain</a></li>
+                <li><a class="link" href="#">Why Hosterr</a></li>
+            </ul>
+        </div>
+
+        <!-- Call to action buttons -->
+        <div class="d_flex center_y">
+            <ul class="d_flex">
+                <li><a class="link" href="#">Sign in</a></li>
+                <li><a class="button" href="#">Join Waitlist</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Nav Bar End -->
+
+
+    <!-- Nav Bar for mobile -->
+    <nav id="mobile_menu" class="container">
+        <div class="d_flex center_y">
+            <a href="#"><img class="logo" src="Logo.svg" alt="Logo"></a>
+        </div>
+
+        <!-- Menu Icon -->
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+        <ul class="d_flex mobile_menu_links center">
+            <li>
+                <!-- Logo and Hiring button -->
+                <ul class="d_flex mobile_logo center">
+                    <li><a href="#"><img src="Logo.svg" alt="Logo"></a></li>
+                    <li><a class="hiring_button" href="#">
+                            Hosterr is hiritg!
+                        </a></li>
+                </ul>
+            </li>
+            <li><a class="link" href="#">Plans</a></li>
+            <li><a class="link" href="#">Find Domain</a></li>
+            <li><a class="link" href="#">Why Hosterr</a></li>
+            <li>
+                <!-- Call to action buttons -->
+                <ul class="cta d_flex">
+                    <li><a class="link" href="#">Sign in</a></li>
+                    <li><a class="button" href="#">Join Waitlist</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- Nav Bar for mobile End -->
+
+</body>
+
+</html>
